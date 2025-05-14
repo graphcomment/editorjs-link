@@ -155,7 +155,6 @@ export default class LinkTool {
    */
   render() {
     this.nodes.wrapper = this.make('div', this.CSS.baseClass);
-    this.nodes.container = this.make('div', this.CSS.container);
     this.nodes.container = this.make('div', [this.CSS.container, 'not-prose']);
 
     this.nodes.inputHolder = this.makeInputHolder();
